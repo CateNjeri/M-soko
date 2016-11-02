@@ -1,3 +1,6 @@
 {{#each shoppingCart.items as |item|}}
-  {{item.title}} -- {{item.price}}
+  <div class="well col-md-6 col-md-offset-3">
+    <h5>{{item.title}} ${{item.price}}</h5>
+    <button {{action 'removeFromCart' item}} class="trash pull-right"><i class="trash icon"></i></button>
+  </div>
 {{/each}}

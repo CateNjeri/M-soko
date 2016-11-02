@@ -47,4 +47,10 @@ nav li {
   float: right;
   font-size: 24px;
   color: #fff;
+  text-decoration: none;
+}
+
+.trash {
+  background: transparent;
+  border: none;
 }
