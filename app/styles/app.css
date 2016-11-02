@@ -42,12 +42,24 @@ nav li {
 #title:hover, .basket:hover {
   color: #666;
 }
+#title:focus, .nav-item:focus, .basket:focus {
+  text-decoration: none;
+}
+
+#subtitle {
+  text-align: center;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  margin-top: -5px;
+}
 
 .basket {
   float: right;
   font-size: 24px;
   color: #fff;
   text-decoration: none;
+  margin-top: 20px;
 }
 
 .trash {

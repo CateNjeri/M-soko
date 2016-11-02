@@ -6,10 +6,13 @@ export default Ember.Service.extend({
   add(product) {
     this.get('items').pushObject(product);
   },
+  cartTotal(price) {
+    this.set('total', price + this.get('total'));
+  },
+  removeFromTotal(price) {
+    this.set('total', this.get('total') - price);
+  },
   remove(product) {
     this.get('items').removeObject(product);
-  },
-  cartTotal(allItems) {
-    console.log(allItems[0].price);
   }
 });

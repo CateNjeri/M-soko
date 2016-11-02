@@ -2,15 +2,29 @@
     "title": "Pumpkin Spice Latte",
     "description": "Our seasonal specialty is back! Enjoy this spicy and flavorful latte that will warm up your winter days.",
     "seasonal": true,
-    "price": "5.00",
-    "image": "http://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2016/09/01/103908829-PSL_and_Chile_Mocha_2016.530x298.jpg?v=1472735695",
+    "price": "4.00",
+    "image": "/assets/img/latte.jpeg",
     "type": "latte"
   }, {
     "title": "Chile Spiced Mocha",
     "description": "Our best-seller! A hearty chile spiced mocha that will help to wake you up in the morning. Flavors of warm, smooth cocoa, spicy red chiles, and a aromatic cinnamon finish.",
-    "seasonal": false,
-    "price": "4.50",
-    "image": "https://hips.hearstapps.com/cos.h-cdn.co/assets/16/35/1472656732-chile-mocha.jpg",
+    "seasonal": true,
+    "price": "3.50",
+    "image": "/assets/img/chile_mocha.jpg",
     "type": "mocha"
+  }, {
+    "title": "Chocolate Hazelnut Machiatto",
+    "description": "Our best-seller! A hearty chile spiced mocha that will help to wake you up in the morning. Flavors of warm, smooth cocoa, spicy red chiles, and a aromatic cinnamon finish.",
+    "seasonal": false,
+    "price": "5.25",
+    "image": "/assets/img/Mocha.jpg",
+    "type": "other"
+  }, {
+    "title": "Matcha Latte",
+    "description": "Our best-seller! A hearty chile spiced mocha that will help to wake you up in the morning. Flavors of warm, smooth cocoa, spicy red chiles, and a aromatic cinnamon finish.",
+    "seasonal": false,
+    "price": "4.75",
+    "image": "/assets/img/matcha.jpg",
+    "type": "latte"
   }]
 }
