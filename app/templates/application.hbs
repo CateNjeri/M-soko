@@ -1,6 +1,12 @@
 <header>
-  {{#link-to 'index'}}<h1>Coffee Site</h1>{{/link-to}}
+  <h1>{{#link-to 'index' id="title"}}Ka-Wi{{/link-to}}<span class="basket">{{#link-to 'index'}}<i class="shopping basket icon"></i>{{/link-to}}</span></h1>
 </header>
+<nav class="row">
+  <li class="col-sm-1 col-sm-offset-4">{{#link-to 'index' class="nav-item"}}Seasonal{{/link-to}}</li>
+  <li class="col-sm-1">{{#link-to 'index' class="nav-item"}}Coffees{{/link-to}}</li>
+  <li class="col-sm-1">{{#link-to 'index' class="nav-item"}}About{{/link-to}}</li>
+  <li class="col-sm-1">{{#link-to 'index' class="nav-item"}}Contact{{/link-to}}</li>
+</nav>
 <div class="container">
   {{outlet}}
 </div>
