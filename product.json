@@ -4,27 +4,31 @@
     "seasonal": true,
     "price": "4.00",
     "image": "/assets/img/latte.jpeg",
-    "type": "latte"
+    "type": "latte",
+    "quantity": "0"
   }, {
     "title": "Chile Spiced Mocha",
     "description": "Our best-seller! A hearty chile spiced mocha that will help to wake you up in the morning. Flavors of warm, smooth cocoa, spicy red chiles, and a aromatic cinnamon finish.",
     "seasonal": true,
     "price": "3.50",
     "image": "/assets/img/chile_mocha.jpg",
-    "type": "mocha"
+    "type": "mocha",
+    "quantity": "0"
   }, {
     "title": "Chocolate Hazelnut Machiatto",
     "description": "Our best-seller! A hearty chile spiced mocha that will help to wake you up in the morning. Flavors of warm, smooth cocoa, spicy red chiles, and a aromatic cinnamon finish.",
     "seasonal": false,
     "price": "5.25",
     "image": "/assets/img/Mocha.jpg",
-    "type": "other"
+    "type": "other",
+    "quantity": "0"
   }, {
     "title": "Matcha Latte",
     "description": "Our best-seller! A hearty chile spiced mocha that will help to wake you up in the morning. Flavors of warm, smooth cocoa, spicy red chiles, and a aromatic cinnamon finish.",
     "seasonal": false,
     "price": "4.75",
     "image": "/assets/img/matcha.jpg",
-    "type": "latte"
+    "type": "latte",
+    "quantity": "0"
   }]
 }

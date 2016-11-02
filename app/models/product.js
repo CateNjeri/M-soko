@@ -6,5 +6,6 @@ export default DS.Model.extend({
   seasonal: DS.attr(),
   price: DS.attr('number'),
   image: DS.attr(),
-  type: DS.attr()
+  type: DS.attr(),
+  quantity: DS.attr('number')
 });
