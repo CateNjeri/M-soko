@@ -13,6 +13,6 @@ export default Ember.Service.extend({
     this.set('total', this.get('total') - price);
   },
   remove(product) {
-    this.get('items').removeObject(product);
+    this.get('items').removeObject('product');
   }
 });
