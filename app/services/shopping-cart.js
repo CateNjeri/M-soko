@@ -20,5 +20,8 @@ export default Ember.Service.extend({
       this.get('items').removeObject(product);
     }
     product.set('quantity', product.get('quantity') - 1);
+  },
+  checkOutItems() {
+    this.get('items', this.set('items', []));
   }
 });
