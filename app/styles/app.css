@@ -61,7 +61,7 @@ nav li {
   text-align: center;
 }
 
-.product-tile img, .product-detail img {
+img {
   box-shadow: 3px 3px 5px #333;
 }
 
@@ -107,4 +107,16 @@ nav li {
   margin-top: 50px;
   padding-left: 50px;
   font-size: 16px;
+}
+
+.about h2 {
+  padding-left: 15px;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.github {
+  margin-top: 50px;
 }

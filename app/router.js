@@ -10,6 +10,8 @@ Router.map(function() {
   this.route('shopping-cart');
   this.route('product', {path: '/product/:product_id'});
   this.route('seasonal', {path: '/seasonal'});
+  this.route('about');
+  this.route('contact');
 });
 
 export default Router;
