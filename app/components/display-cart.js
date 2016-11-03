@@ -10,8 +10,7 @@ export default Ember.Component.extend({
     },
     checkOut() {
       this.get('shoppingCart').checkOutItems();
-      var returnMessage = "purchased"
-      var message = this.get('purchaseMessage');
+      var returnMessage = "purchased";
       this.set('purchaseMessage', returnMessage);
     }
   }
