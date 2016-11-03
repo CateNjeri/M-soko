@@ -1,6 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  sortBy: ['date:desc'],
+  sortedReviews: Ember.computed.sort('product.reviews', 'sortBy'),
   shoppingCart: Ember.inject.service(),
   actions: {
     addToCart(item) {

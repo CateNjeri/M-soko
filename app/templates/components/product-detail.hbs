@@ -16,7 +16,7 @@
   {{new-review saveReview="saveReview" product=product}}
 </div>
 <div class="col-md-8 col-md-offset-2 product-reviews">
-  {{#each product.reviews as |review|}}
+  {{#each sortedReviews as |review|}}
     {{review-tile review=review}}
   {{/each}}
 </div>
