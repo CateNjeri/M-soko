@@ -65,6 +65,10 @@ nav li {
   text-align: center;
 }
 
+.product-tile img {
+  box-shadow: 3px 3px 5px #333;
+}
+
 .basket {
   float: right;
   font-size: 24px;
@@ -76,4 +80,26 @@ nav li {
 .trash, .no-btn {
   background: transparent;
   border: none;
+}
+
+.cart-btn {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  width: 75%;
+  padding: 7px 10px;
+}
+
+.cart-btn:hover {
+  border: 1px solid #666;
+  background-color: #666;
+  color: #fff;
+}
+
+.product-title {
+  color: #000;
+}
+
+.product-title:hover {
+  color: #666;
 }
