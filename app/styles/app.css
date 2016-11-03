@@ -54,10 +54,6 @@ nav li {
   margin-top: -5px;
 }
 
-.product-detail h2 {
-  text-align: center;
-}
-
 .product-tile h3 {
   margin-top: 0px;
   margin-bottom: 35px;
@@ -65,7 +61,7 @@ nav li {
   text-align: center;
 }
 
-.product-tile img {
+.product-tile img, .product-detail img {
   box-shadow: 3px 3px 5px #333;
 }
 
