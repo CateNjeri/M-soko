@@ -1,7 +1,4 @@
-<div class="col-md-4">
-  <img src={{product.image}}><br>
-  {{product.title}}<br>
-  {{product.description}}
-  {{product.price}}
-  <button {{action 'addToCart' product}}>Add to Cart</button>
+<div class="col-md-4 product-tile">
+  <img src={{product.image}} class="img-responsive"><br>
+  <h3>{{#link-to 'product' product.id}}{{product.title}}{{/link-to}}<button class="no-btn" {{action 'addToCart' product}}><i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></button></h3>
 </div>

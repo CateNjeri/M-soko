@@ -1,0 +1,12 @@
+<div class="col-md-8 col-md-offset-2 product-detail">
+  <div class="col-md-6">
+    <h2>{{product.title}}</h2>
+    <img src={{product.image}}>
+  </div>
+  <div class="col-md-6">
+    <h3>${{product.price}}<button class="no-btn" {{action 'addToCart' product}}><i class="fa fa-cart-plus fa-lg" aria-hidden="true"></i></button></h3>
+    <p>
+      {{product.description}}
+    </p>
+  </div>
+</div>
