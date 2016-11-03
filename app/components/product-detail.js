@@ -6,6 +6,9 @@ export default Ember.Component.extend({
     addToCart(item) {
       this.get('shoppingCart').add(item);
       this.get('shoppingCart').cartTotal(item.data.price);
+    },
+    saveReview(params) {
+      this.sendAction('saveReview', params);
     }
   }
 });

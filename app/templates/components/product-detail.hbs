@@ -11,3 +11,11 @@
     <button class="btn center-block cart-btn" {{action 'addToCart' product}}>Add To Cart</button>
   </div>
 </div>
+<div class="col-md-8 col-md-offset-2 product-reviews">
+  {{new-review saveReview="saveReview" product=product}}
+</div>
+<div class="col-md-8 col-md-offset-2 product-reviews">
+  {{#each product.reviews as |review|}}
+    {{review-tile review=review}}
+  {{/each}}
+</div>
