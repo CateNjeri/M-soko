@@ -27,6 +27,11 @@ export default Ember.Service.extend({
     this.get('items').forEach(function(item) {
       _this.get('items').removeObject(item);
       item.set('quantity', 0);
+      console.log(item.get('title'));
     });
+    // for(var i = 0; i < this.get('items.length'); i++) {
+    //   _this.get('items').removeObject(this.get('items')[0]);
+    //   this.get('items')[0].set('quantity', 0);
+    // }
   }
 });
