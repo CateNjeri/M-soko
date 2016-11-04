@@ -1,7 +1,9 @@
-# Coffee-ecommerce
+# Ka-Wi
+#### By Aimen KhakwanI & Elysia Nason
+#### 11-2-2016
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Ka-Wi is an ecommerce website made in Ember. It is for a business (Ka-Wi) that delivers coffee to the customers' doors. This site allows users to view each product, and add it to their cart (using a service in ember), and calculates the total. Users can then 'checkout' (simply empties the cart, resets the total, and displays a message). The website also allows users to read product descriptions, leave a review, and read reviews left by previous customers. The review display is sorted from most recent to least recent (using a computed property).
+<img src="public/assets/img/screenshot.png" alt="a screenshot of t.he web app">
 
 ## Prerequisites
 
@@ -39,10 +41,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -50,4 +48,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
