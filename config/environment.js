@@ -14,10 +14,11 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: "AIzaSyBTUYR61kgi8VbQcY9y1PQQzOgDe03fpHw",
-      authDomain: "coffee-ecommerce.firebaseapp.com",
-      databaseURL: "https://coffee-ecommerce.firebaseio.com",
-      storageBucket: "coffee-ecommerce.appspot.com"
+      apiKey: "AIzaSyA0xCFJh1fqbUXh1OrATAfNHHkJeg0JgwQ",
+      authDomain: "soko-77c44.firebaseapp.com",
+      databaseURL: "https://soko-77c44.firebaseio.com",
+      storageBucket: "soko-77c44.appspot.com",
+      messagingSenderId: "956354168857"
     },
 
     APP: {

@@ -1,34 +1,52 @@
 {"products": [{
-    "title": "Pumpkin Spice Latte",
-    "description": "Our seasonal specialty is back! Enjoy this spicy and flavorful latte that will warm up your winter days.",
-    "seasonal": "true",
-    "price": "4.00",
-    "image": "/assets/img/latte.jpeg",
-    "type": "latte",
-    "quantity": "0"
-  }, {
-    "title": "Chile Spiced Mocha",
-    "description": "Our best-seller! A hearty chile spiced mocha that will help to wake you up in the morning. Flavors of warm, smooth cocoa, spicy red chiles, and a aromatic cinnamon finish.",
-    "seasonal": "true",
-    "price": "3.50",
-    "image": "/assets/img/chile_mocha.jpg",
-    "type": "mocha",
-    "quantity": "0"
-  }, {
-    "title": "Chocolate Hazelnut Machiatto",
-    "description": "Our best-seller! A hearty chile spiced mocha that will help to wake you up in the morning. Flavors of warm, smooth cocoa, spicy red chiles, and a aromatic cinnamon finish.",
+    "title": "Hot Red Pepper",
+    "description": "Red chilli, to spice up your to your desired level of hotness.",
     "seasonal": "false",
-    "price": "5.25",
-    "image": "/assets/img/Mocha.jpg",
-    "type": "other",
+    "price": "1.00",
+    "image": "/assets/img/chilli.jpg",
+    "type": "Spice",
     "quantity": "0"
   }, {
-    "title": "Matcha Latte",
-    "description": "Our best-seller! A hearty chile spiced mocha that will help to wake you up in the morning. Flavors of warm, smooth cocoa, spicy red chiles, and a aromatic cinnamon finish.",
+    "title": "Grapes",
+    "description": "A worthy fruit fresh from Paris.",
+    "seasonal": "false",
+    "price": "5.50",
+    "image": "/assets/img/grapes.jpg",
+    "type": "Fruit",
+    "quantity": "0"
+  }, {
+    "title": "Sweet Melon",
+    "description": "A Kenyan grown fruit, all the from Rift-Valley.Sweetness Guranteed",
+    "seasonal": "false",
+    "price": "7.25",
+    "image": "/assets/img/melon.jpg",
+    "type": "Fruit",
+    "quantity": "0"
+  }, {
+    "title": "Peas",
+    "description": "Direct from the Kenyan Highlands to your home.",
+    "seasonal": "false",
+    "price": "2.75",
+    "image": "/assets/img/peas.jpg",
+    "type": "Grains",
+    "quantity": "0"
+  },
+  {
+    "title": "Pomogranate",
+    "description": "Direct shipment from Spain for the best quality.",
+    "seasonal": "false",
+    "price": "12.75",
+    "image": "/assets/img/pomogranate.jpg",
+    "type": "Fruits",
+    "quantity": "0"
+  },
+  {
+    "title": "Tomatoes",
+    "description": "Organically grown Tomatoes for the best taste and coloring of foood.",
     "seasonal": "false",
     "price": "4.75",
-    "image": "/assets/img/matcha.jpg",
-    "type": "latte",
+    "image": "/assets/img/tomatoes.jpg",
+    "type": "Grains",
     "quantity": "0"
   }]
 }
