@@ -12,6 +12,8 @@ Router.map(function() {
   this.route('seasonal', {path: '/seasonal'});
   this.route('about');
   this.route('contact');
+  this.route('veges');
+  this.route('fruits');
 });
 
 export default Router;

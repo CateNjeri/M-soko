@@ -11,7 +11,7 @@
 {{#if shoppingCart.items}}
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
-      <h3 class="pull-right">Total: ${{shoppingCart.total}}</h3>
+      <h3 class="pull-right">Total: Ksh{{shoppingCart.total}}</h3>
       <button class="btn pull-left checkout-btn" {{action 'checkOut' shoppingCart.items}}>Check Out!</button>
     </div>
   </div>

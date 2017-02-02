@@ -66,7 +66,7 @@ img {
 }
 
 .basket {
-  float: right;
+  /*float: right;*/
   font-size: 24px;
   color: #fff;
   text-decoration: none;
@@ -139,4 +139,34 @@ img {
 
 .purchase-message {
   margin-left: 450px;
+}
+.paper-right {
+  margin-left: auto;
+}
+.nav-pills > li {
+  width: 180px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.nav-pills > li:not(:first-child) {
+  margin: auto 4%;
+}
+.text{
+ background-image: url("http://www.abdyantiques.co.uk/vintage-phone-images/gpo-telephone.png (169KB)
+
+");
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 500px;
+ padding-top:10px;
+ float: left;
+ padding-left: 50px;
+ padding-top: 120px;
+ color: white;
+}
+
+.jumbotron{
+ float:left;
+ padding-left:30px;
+ padding-top: 150px;
 }

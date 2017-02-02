@@ -1,24 +1,12 @@
-<!-- <header>
-  <h1>{{#link-to 'index' id="title"}}Ka-Wi{{/link-to}}<span class="basket">{{#link-to 'shopping-cart' class="basket"}}<i class="shopping basket icon"></i>{{/link-to}}</span></h1>
-  <h4 id="subtitle">Coffee delivered right to your door!</h4>
-</header>
-<nav class="row">
-  <li class="col-sm-1 col-sm-offset-4">{{#link-to 'seasonal' class="nav-item"}}Seasonal{{/link-to}}</li>
-  <li class="col-sm-1">{{#link-to 'index' class="nav-item"}}Coffees{{/link-to}}</li>
-  <li class="col-sm-1">{{#link-to 'about' class="nav-item"}}About{{/link-to}}</li>
-  <li class="col-sm-1">{{#link-to 'contact' class="nav-item"}}Contact{{/link-to}}</li>
-</nav>
-<div class="container">
-  {{outlet}}
-</div> -->
+
 <header>
   {{#paper-toolbar}}
   <div class="md-toolbar-tools">
-    {{#link-to 'index' id="title"}}{{#paper-button}}Msoko{{/paper-button}}{{/link-to}}<span class="basket">{{#link-to 'shopping-cart' class="basket"}}<i class="shopping basket icon"></i>{{/link-to}}</span>
+    {{#link-to 'index' id="title"}}{{#paper-button}}Msoko{{/paper-button}}{{/link-to}}
     {{#link-to 'index'}}{{#paper-button}}Grocery{{/paper-button}}{{/link-to}}
     {{#link-to 'about'}}{{#paper-button}}About{{/paper-button}}{{/link-to}}
     {{#link-to 'contact'}}{{#paper-button}}Contact Us{{/paper-button}}{{/link-to}}
-
+    <span class="basket">{{#link-to 'shopping-cart' class="basket"}}<i class="shopping basket icon"></i>{{/link-to}}</span>
   </div>
 {{/paper-toolbar}}
 </header>

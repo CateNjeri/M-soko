@@ -1,0 +1,105 @@
+
+  {"product":"VEGITABLES",
+    "aproduct":{
+    "vegetables":[{
+          "title": "Hot Red Pepper",
+          "description": "Red chilli, to spice up your to your desired level of hotness.",
+          "seasonal": "true",
+          "price": "1.00",
+          "image": "/assets/img/chilli.jpg",
+          "type": "Spice",
+          "quantity": "0"
+        },{
+          "title": "Peas",
+          "description": "Direct from the Kenyan Highlands to your home.",
+          "seasonal": "false",
+          "price": "2.75",
+          "image": "/assets/img/peas.jpg",
+          "type": "Grains",
+          "quantity": "0"
+        },{
+          "title": "Tomatoes",
+          "description": "Organically grown Tomatoes for the best taste and coloring of foood.",
+          "seasonal": "false",
+          "price": "4.75",
+          "image": "/assets/img/tomatoes.jpg",
+          "type": "Vegetables",
+          "quantity": "0"
+        }],
+
+   "fruits":[{
+    "title": "Sweet Melon",
+    "description": "A Kenyan grown fruit, all the from Rift-Valley.Sweetness Guranteed",
+    "seasonal": "false",
+    "price": "7.25",
+    "image": "/assets/img/melon.jpg",
+    "type": "Fruit",
+    "quantity": "0"
+  }, {
+    "title": "Pomogranate",
+    "description": "Direct shipment from Spain for the best quality.",
+    "seasonal": "false",
+    "price": "12.75",
+    "image": "/assets/img/pomogranate.jpg",
+    "type": "Fruit",
+    "quantity": "0"
+  },
+  {
+    "title": "Grapes",
+    "description": "A worthy fruit fresh from Paris.",
+    "seasonal": "false",
+    "price": "10.50",
+    "image": "/assets/img/grapes.jpg",
+    "type": "Fruit",
+    "quantity": "0"
+    },{
+      "title": "Maize",
+      "description": "Fresh maize from the shamba always in plenty.",
+      "seasonal": "true",
+      "price": "7.50",
+      "image": "https://aos.iacpublishinglabs.com/question/aq/1400px-788px/maize_7df23f14657a051a.jpg?domain=cx.aos.ask.com",
+      "type": "cereals",
+      "quantity": "0"
+    },{
+        "title": "Beans",
+        "description": "All types of beans are available.",
+        "seasonal": "true",
+        "price": "8.00",
+        "image": "http://cdn-maf0.heartyhosting.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/beans-promo.jpg?itok=zf_orVfT",
+        "type": "cereals",
+        "quantity": "0"
+      },{
+        "title": "Lentiles",
+        "description": "Readily available Lentiles good for your health",
+        "seasonal": "false",
+        "price": "9.50",
+        "image": "http://www.calgaryherald.com/life/cms/binary/4837810.jpg?size=620x400s",
+        "type": "cereals",
+        "quantity": "0"
+      },{
+        "title": "Beef",
+        "description": "Fresh maize from the shamba always in plenty.",
+        "seasonal": "true",
+        "price": "30.50",
+        "image": "http://www.ecolab.com/~/media/Ecolab/Ecolab%20Home/Images/Markets/FandB/Meat%20Poultry%20and%20Seafood/Image%20showing%20meat%20poultry%20and%20seafood.jpg",
+        "type": "meat",
+        "quantity": "0"
+      },{
+          "title": "Pork",
+          "description": "Fresh ham tasty when cooked",
+          "seasonal": "true",
+          "price": "40.00",
+          "image": "https://i.ytimg.com/vi/aXPmxWEXrRU/maxresdefault.jpg",
+          "type": "meat",
+          "quantity": "0"
+        },{
+          "title": "Chicken",
+          "description": "Full chicken available",
+          "seasonal": "true",
+          "price": "50.50",
+          "image": "http://www.foodsafetynews.com/files/2013/05/BroilerChickenMain.jpg",
+          "type": "meat",
+          "quantity": "0"
+    }]
+    }
+  }

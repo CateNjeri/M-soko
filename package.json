@@ -1,5 +1,5 @@
 {
-  "name": "coffee-ecommerce",
+  "name": "Msoko",
   "version": "0.0.0",
   "description": "Small description for coffee-ecommerce goes here",
   "private": true,
@@ -44,6 +44,7 @@
     "ember-moment": "6.1.0",
     "ember-paper": "1.0.0-alpha.15",
     "ember-resolver": "^2.0.3",
+    "ember-transition-helper": "0.0.6",
     "ember-welcome-page": "^1.0.1",
     "emberfire": "2.0.4",
     "loader.js": "^4.0.1",

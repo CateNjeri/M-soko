@@ -1,3 +1,22 @@
-{{#each model.products as |product|}}
+<div class="container">
+   <ul class="nav nav-pills">
+     <li role="presentation" class="active"><a href="#veges">Veges</a></li>
+     <li role="presentation"><a class="page-scroll" href="#fruits" role="tab" data-toggle="tab" aria-controls="fruits">Fruits</a></li>
+     <li role="presentation"><a class="page-scroll" href="#meat">Meat</a></li>
+     <li role="presentation"><a class="page-scroll" href="#cereals">Cereals</a></li>
+   </ul>
+ </div>
+ {{model.product}}
+ {{model.aproduct.vegetables}}
+{{#each model.aproduct.vegetables as |product|}}
   {{product-tile product=product }}
 {{/each}}
+{{#each model.aproduct.fruits as |product|}}
+  {{product-tile product=product }}
+{{/each}}
+<!-- {{#each model.meat as |product|}}
+  {{product-tile product=product }}
+{{/each}}
+{{#each model.cereals as |product|}}
+  {{product-tile product=product }}
+{{/each}} -->
